@@ -1,22 +1,78 @@
 <!DOCTYPE html>
 <html>
-<body>
+<style>
+h3#head3 {color:blue;font-family:Courier;}
+code#c1  {color:green;font-size:150%;}
+</style>
+<head>
+	<title>My First Thing YO!</title>
+	<meta charset="UTF-8">
+</head>
+<body style="background-color:lightgrey;">
 
-<form method="post" action="<?php echo $_server['PHP_SELF'];?>">
-	Name: <input type="text" name="fname">
-	<input type="submit">
-	</form>
+<h1 style="text-align:center;">This is Drake's document</h1>
+<address style="text-align:center">
+	Written by Drake Knapper.<br>
+	130 Reynolds PL<br>
+	Fayetteville, GA<br>
+	30215
+</address>
+<p>I don/t know WHy I am reall ylearning html,<br> 
+but I believe it to be super important. </p>
 
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST"){
-	$name = $_POST['fname'];
-	if (empty($name)){
-		echo "name is empty";
-	} else {
-		echo "$name is a Faggot";
+<h2 style="font-family:courier;">Second Paragraph</h2>
+
+<p title="About Me NIGGAS">Second Paragraph Niggas!
+Heres a link to my website. <abbr title="Georgia State University">GSU</abbr>
+<a href="http://neurds.net">Neurds.net</a>
+</p>
+<h3 id="head3">
+	Heres an ImG!
+</h3>
+<img src="http://i.imgur.com/zX3mDHq.jpg" alt="Awesome, Fuck Yeah" 
+width="104" height="142">
+
+<pre>
+This is omething really interesting. 
+But I dont know how I can show It. 
+My body is slowly leaving me, fighting to get away,
+But for some reason I still try to control It. 
+
+I know its useless, hardly and option to me
+but every chance I get, I try my hardest to leave. 
+</pre>
+
+<h4>
+	Here Is Some Code I Wrote Recentlyd
+</h4>
+<p>
+<pre>
+<code id="c1">
+public class HelloWord{
+	public static void main(){
+		System.out.println("Hello World")
 	}
 }
-?>
+</code>
+<samp>
+drake@penguin~$Hello World
+</samp>
+</pre>
+</p>
+
+<h5>Tell me about yourself!</h5>
+<form action="faggot.php" method="post">
+	Firts Name:<br>
+	<input type="text" name="firstname"><br>
+	Last Name:<br>
+	<input type="text" name="lastname"><br>
+	Age:<br>
+	<input type="number" name="Age"><br>
+	<input type="submit" value="GO!">
+</form>
+
+<br> YEAH
 
 </body>
 </html>
+
