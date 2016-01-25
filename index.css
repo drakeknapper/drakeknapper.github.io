@@ -21,6 +21,11 @@
 	padding:10px;
 }
 
+#aside {
+	float:right;
+	padding:5px;
+}
+
 #footer {
 	background-color:black;
 	color:white;
