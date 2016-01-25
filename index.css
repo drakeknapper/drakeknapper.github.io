@@ -12,15 +12,15 @@ img {
 }
 
 #header {
-	background-color:black;
-	color:white;
+	background-color:#CBE86B;
+	color:black;
 	text-align:center;
 	padding:5px;
 }
 
 #nav {
 	line-height:30px;
-	background-color:#eeeeee;
+	background-color:#1C140D;
 	height:300px;
 	width:100px;
 	float:left;
@@ -28,18 +28,20 @@ img {
 }
 
 #section {
+	background-color:#F2E9E1;
 	width:450px;
 	float:left;
 	padding:10px;
 }
 
 #aside {
+	background-color:#F2E9E1;
 	float:right;
 	padding:5px;
 }
 
 #footer {
-	background-color:black;
+	background-color:#CBE86B;
 	color:white;
 	clear:both;
 	text-align:center;
