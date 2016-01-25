@@ -12,7 +12,7 @@ img {
 }
 
 #header {
-	background-color:#CBE86B;
+	background-color:#7D1935;
 	color:black;
 	text-align:center;
 	padding:5px;
@@ -20,7 +20,7 @@ img {
 
 #nav {
 	line-height:30px;
-	background-color:#1C140D;
+	background-color:#4A96AD;
 	height:300px;
 	width:100px;
 	float:left;
@@ -28,14 +28,12 @@ img {
 }
 
 #section {
-	background-color:#F2E9E1;
 	width:450px;
 	float:left;
 	padding:10px;
 }
 
 #aside {
-	background-color:#F2E9E1;
 	float:right;
 	padding:5px;
 }
