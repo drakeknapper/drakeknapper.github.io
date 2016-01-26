@@ -35,7 +35,7 @@ a:hover, a:active {
 	line-height:30px;
 	background-color:#4A96AD;
 	height:300px;
-	width:100px;
+	width:150px;
 	float:left;
 	padding:5px;
 }
@@ -43,7 +43,7 @@ a:hover, a:active {
 #section {
 	width:450px;
 	float:left;
-	padding:10px;
+	padding:20px;
 }
 
 #aside {
